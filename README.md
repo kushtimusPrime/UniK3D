@@ -62,7 +62,7 @@ python -m venv $VENV_DIR/$NAME
 source $VENV_DIR/$NAME/bin/activate
 
 # Install UniK3D and dependencies (more recent CUDAs work fine)
-pip install -e . --extra-index-url https://download.pytorch.org/whl/cu121
+pip install -e . --extra-index-url https://download.pytorch.org/whl/cu124
 
 # Install Pillow-SIMD (Optional)
 pip uninstall pillow
